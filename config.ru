@@ -2,4 +2,6 @@
 
 require_relative 'config/environment'
 
+  root 'application#hello'
+
 run Rails.application
